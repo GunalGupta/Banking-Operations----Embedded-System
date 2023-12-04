@@ -1,0 +1,102 @@
+$date
+	Mon Dec 04 23:27:17 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simple_bank_tb $end
+$var wire 32 ! transaction_log [31:0] $end
+$var wire 32 " balance [31:0] $end
+$var reg 8 # account_id [7:0] $end
+$var reg 32 $ amount [31:0] $end
+$var reg 1 % clk $end
+$var reg 3 & operation [2:0] $end
+$var reg 1 ' reset $end
+$scope module uut $end
+$var wire 8 ( account_id [7:0] $end
+$var wire 32 ) amount [31:0] $end
+$var wire 1 % clk $end
+$var wire 3 * operation [2:0] $end
+$var wire 1 ' reset $end
+$var reg 32 + balance [31:0] $end
+$var reg 32 , internal_balance [31:0] $end
+$var reg 32 - internal_transaction_log [31:0] $end
+$var reg 32 . transaction_log [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 .
+b0 -
+b11000011010100000 ,
+b11000011010100000 +
+b0 *
+b0 )
+b0 (
+1'
+b0 &
+0%
+b0 $
+b0 #
+b11000011010100000 "
+b0 !
+$end
+#10000
+1%
+#20000
+0%
+0'
+#30000
+1%
+#40000
+0%
+#50000
+1%
+#60000
+0%
+#70000
+b100111000100000 !
+b100111000100000 .
+b10011100010000000 "
+b10011100010000000 +
+b100111000100000 -
+b10011100010000000 ,
+1%
+b100111000100000 $
+b100111000100000 )
+b1 &
+b1 *
+#80000
+0%
+#90000
+b1110101001100000 "
+b1110101001100000 +
+b1110101001100000 ,
+1%
+#100000
+0%
+b101 #
+b101 (
+b111010100110000 $
+b111010100110000 )
+b10 &
+b10 *
+#110000
+b111010100110000 !
+b111010100110000 .
+b111010100110000 "
+b111010100110000 +
+b111010100110000 -
+b111010100110000 ,
+1%
+#120000
+0%
+#130000
+b0 "
+b0 +
+b0 ,
+1%
